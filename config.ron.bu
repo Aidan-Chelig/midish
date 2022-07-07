@@ -1,0 +1,11 @@
+(
+    obs_host: "ws://localhost:4444",
+    obs_port: "3333",
+    bindings: {
+               (channel: 0, control: 82): BindingCommand(
+                         cmd: "asdsaa",
+                         operations: [
+                         Operation::Map(0., 1.)
+],
+            }
+)

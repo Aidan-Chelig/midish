@@ -1,0 +1,33 @@
+(
+    obs_host: "ws://localhost:4444",
+    obs_port: "3333",
+    bindings: {
+               (channel: 0, control: 82): BindingCommand(
+                         cmd: "notify-send asdasdsa _",
+                         operations: [
+                           Map(-1., 1.)
+                         ]
+               ),
+               (channel: 0, control: 83): BindingCommand(
+                         cmd: "",
+                         operations: [
+                           Map(-1., 1.)
+                         ]
+                ),
+               (channel: 0, control: 84): BindingCommand(
+                         cmd: "",
+                         operations: [
+                           Map(-1., 1.)
+                         ]
+               ),
+               (channel: 15, control: 7): BindingCommand(
+                         cmd: "_",
+                         operations: [
+                           Compare(10., String("kill $(cat /tmp/qalculate-gtk.pid)"), String("qalculate-gtk& echo $! > /tmp/qalculate-gtk.pid"), String(""))
+                         ]
+               )
+
+
+
+            }
+)
